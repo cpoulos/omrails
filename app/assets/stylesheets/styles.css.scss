@@ -1,0 +1,24 @@
+$baseFontFamily: Tangerine;
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
+
+$brand-primary: green;
+$navbar-default-brand-color: green;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+.navbar-inner {
+	@include box-shadow (none !important);
+	border: 0;
+}
+
+.footer {
+	margin-top: 50px;
+	color: #d3d3d3;
+	a {
+		color: $gray;
+	}
+}
